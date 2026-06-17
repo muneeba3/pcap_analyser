@@ -1,0 +1,37 @@
+[
+  {
+    "id": "SIG-001",
+    "name": "Port Scan Detected",
+    "description": "Multiple ports hit from single source in short time",
+    "severity": "medium",
+    "mitre": "T1046"
+  },
+  {
+    "id": "SIG-002",
+    "name": "DNS Tunnelling Suspected",
+    "description": "Unusually long DNS query detected",
+    "severity": "high",
+    "mitre": "T1071.004"
+  },
+  {
+    "id": "SIG-003",
+    "name": "Cleartext Credentials",
+    "description": "Possible credentials in plaintext HTTP traffic",
+    "severity": "high",
+    "mitre": "T1040"
+  },
+  {
+    "id": "SIG-004",
+    "name": "ICMP Flood",
+    "description": "High volume ICMP packets from single source",
+    "severity": "medium",
+    "mitre": "T1498"
+  },
+  {
+    "id": "SIG-005",
+    "name": "Suspicious User Agent",
+    "description": "Known malicious or suspicious HTTP user agent",
+    "severity": "high",
+    "mitre": "T1071.001"
+  }
+]

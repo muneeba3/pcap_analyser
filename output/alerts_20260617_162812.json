@@ -1,0 +1,11 @@
+{
+  "file": "samples\\traffic_analyzer3.pcap",
+  "total_alerts": 0,
+  "unique_signatures_triggered": 0,
+  "by_severity": {
+    "high": 0,
+    "medium": 0,
+    "low": 0
+  },
+  "alerts": []
+}
