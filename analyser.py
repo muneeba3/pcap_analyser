@@ -80,8 +80,6 @@ def analyse_pcap(filepath):
                             f"User-Agent contains: {ua}"))
 
     return alerts
-
-
 def make_alert(sig_id, src, dst, detail):
     sig = next(s for s in SIGNATURES if s["id"] == sig_id)
     alert = {
